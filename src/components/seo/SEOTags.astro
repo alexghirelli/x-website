@@ -17,16 +17,16 @@ type Props = {
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "Astro - Portfolio template";
+const DEFAULT_TITLE_PAGE = "Alex Ghirelli - Senior Software Engineer";
 const DEFAULT_DESCRIPTION_PAGE =
-  "A minimal portfolio template built with Astro and Tailwindcss.";
+  "Alex Ghirelli. Senior Software Engineer. A NERDY MAN who love to code, travel the world, listen to music and take some shot of unforgettable moments!";
 const DEFAULT_URL_SITE = SITE_URL;
 
 const openGraph = {
   title: og?.title || DEFAULT_TITLE_PAGE,
   type: og?.type || "website",
-  image: og?.image || "/opengraph-image.jpg",
-  alt: og?.alt || "astro portfolio template image",
+  image: og?.image || "/alex-ghirelli.jpg",
+  alt: og?.alt || "Alex Ghirelli - Senior Software Engineer",
   url: DEFAULT_URL_SITE,
   description: og?.description || DEFAULT_DESCRIPTION_PAGE,
 };
