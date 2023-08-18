@@ -7,20 +7,29 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Dictionary App",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
-    link: "https://github.com/MaeWolff/dictionary-app",
+    title: "Cartier e-commerce",
+    techs: ["JS", "C#", ".NET", "Algolia", "SASS", "IBM Websphere Commerce"],
+    link: "https://cartier.com",
   },
   {
-    title: "Portfolio / Lina BLIDI",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
-    link: "https://www.linablidi.fr/",
+    title: "Balmain e-commerce",
+    techs: ["JS", "C#", ".NET", "SASS"],
+    link: "https://www.balmain.com/",
   },
   {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
+    title: "Karl Lagerfeld e-commerce",
+    techs: ["Vanilla JS", "C#", ".NET", "SASS"],
+    link: "https://www.karllagerfeld.com/",
+  },
+  // {
+  //   title: "Musixmatch",
+  //   techs: ["PHP", "Symfony", "Mezzio", "Elasticsearch", "Terraform", "NodeJS", "ECS", "EKS", "SNS", "S3", "CloudFront", "CloudWatch", "DynamoDB", "Lambda"],
+  //   link: "https://www.musixmatch.com/",
+  // },
+  {
+    title: "Technogym e-commerce",
+    techs: ["JS", "React", "PHP", "Magento", "Wordpress", "SASS"],
+    link: "https://www.technogym.com/",
   },
 ];
 
