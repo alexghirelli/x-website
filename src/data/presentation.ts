@@ -6,6 +6,7 @@ type Social = {
 type Presentation = {
   mail: string;
   title: string;
+  jobTitle: string;
   description: string;
   socials: Social[];
 };
@@ -13,8 +14,9 @@ type Presentation = {
 const presentation: Presentation = {
   mail: "alex@1gh.dev",
   title: "Hi, I’m Alex 👋",
+  jobTitle: "Senior Software Engineer",
   description:
-    "Hello, I'm A NERDY MAN who love to code, travel the world, listen to music and take some shot of unforgettable moments!",
+    "I'm a NERDY man who love to code, travel the world, listen to music and take some shot of unforgettable moments!",
   socials: [
     {
       label: "X",
